@@ -1,0 +1,22 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello","hi","hey","good day","greetings","what's up?","how is it going?"],
+    "responses" :["Hello!","Hey!","What can I do for you?"]
+ },
+ {"tag":"bye",
+    "patterns":["bye bye","goodbye","see you later","see ya"],
+    "responses":["Goodbye!","Come back soon!","See ya! Will miss you"]
+ },
+ {"tag":"happy",
+   "patterns":["good day","awesome","excellent","amazing","nice"],
+   "responses":["wow thats great!","I am happy for you","Nicee"]
+},
+{"tag":"sad",
+   "patterns":["not good","okish","bad","worst","frown"],
+   "responses":["well...cheer up! Just as master Oogway says, \"There are no accidents\" "]
+},
+{"tag":"fun",
+"patterns":["I am bored","feeling lonely", "Let's do something","Entertain me"],
+"responses":["Wanna hear a joke?"," ”Loneliness is not lack of company, loneliness is lack of purpose.” – Guillermo Maldonado. So why don't you find something productive to do? Probably get some rest or read a book or write a blog...And besides, I am always there for you","Wanna play a game?"]}
+
+]}
